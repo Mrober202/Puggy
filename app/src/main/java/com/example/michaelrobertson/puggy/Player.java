@@ -22,6 +22,10 @@ public class Player {
         return this.spin;
     }
 
+    public int getPocketMoney(){
+        return this.pocketMoney;
+    }
+
     public int playerPaysToSpin() {
         return pocketMoney -= 1;
     }

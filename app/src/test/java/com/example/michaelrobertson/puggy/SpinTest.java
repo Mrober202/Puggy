@@ -12,8 +12,9 @@ public class SpinTest {
 
     Spin spin;
 
-
-
+    @Test
+    public void name() throws Exception {
 
     }
+}
 
