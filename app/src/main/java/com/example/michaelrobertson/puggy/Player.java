@@ -7,11 +7,13 @@ package com.example.michaelrobertson.puggy;
 public class Player {
 
     Spin spin;
+    Machine machine;
     int pocketMoney = 10;
 
     public Player() {
         this.pocketMoney = pocketMoney;
         this.spin = new Spin();
+        this.machine = machine;
     }
 
 
@@ -23,6 +25,10 @@ public class Player {
     public int playerPaysToSpin() {
         return pocketMoney -= 1;
     }
+
+
+
+
 
 
 

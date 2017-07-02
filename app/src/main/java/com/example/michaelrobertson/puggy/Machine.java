@@ -35,4 +35,8 @@ public class Machine {
     public void ranodmiseSlot() {
         Collections.shuffle(slots);
     }
+
+    public int coinGoesToPuggyBank() {
+        return funds += 1;
+    }
 }

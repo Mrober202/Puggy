@@ -16,7 +16,16 @@ public class Puggy {
         player = new Player();
     }
 
+    public Play() {
+//        player runs spinner
+//        this takes one from their pocketMoney and puts in into the Puggy bank
+//        player is shown result and if they've won
+        player.playerPaysToSpin();
+        machine.coinGoesToPuggyBank();
 
+        Slot slot = machine.getSlotSymbol();
+        player.spin.addToSlot(Spin spin);
+    }
 
 
 }

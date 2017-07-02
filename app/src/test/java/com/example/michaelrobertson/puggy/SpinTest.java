@@ -12,8 +12,8 @@ public class SpinTest {
 
     Spin spin;
 
-    @Test
-    public void spin1Result() throws Exception {
-        assertNotNull(spin.spin1Result());
+
+
+
     }
-}
+
