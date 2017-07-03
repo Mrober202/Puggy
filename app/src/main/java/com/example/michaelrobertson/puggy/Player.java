@@ -30,6 +30,22 @@ public class Player {
         return pocketMoney -= 1;
     }
 
+    public int lemonJackpot() {
+        return pocketMoney += 5;
+    }
+
+    public int bellJackpot() {
+        return pocketMoney += 10;
+    }
+
+    public int cherryJackpot() {
+        return pocketMoney += 20;
+    }
+
+    public int sevenJackpot() {
+        return pocketMoney += 50;
+    }
+
 
 
 

@@ -39,4 +39,20 @@ public class Machine {
     public int coinGoesToPuggyBank() {
         return funds += 1;
     }
+
+    public int lemonJackpot() {
+        return funds -= 5;
+    }
+
+    public int bellJackpot() {
+        return funds -= 10;
+    }
+
+    public int cherryJackpot() {
+        return funds -= 20;
+    }
+
+    public int sevenJackpot() {
+        return funds -= 50;
+    }
 }
